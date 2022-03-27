@@ -182,3 +182,15 @@ h4{
     letter-spacing: 0.25px;
     padding: 15px 0 13px;
 }
+
+.price{
+    background-color: #171f23;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 60px 0;
+    display: block;
+}
+
+.addit_info{
+    padding: 20px 0;
+}
