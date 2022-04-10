@@ -194,3 +194,108 @@ h4{
 .addit_info{
     padding: 20px 0;
 }
+
+.price-content-head{
+    background: #0e1316;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px 0 30px;
+}
+
+.price-content-head h4{
+    padding-top: 6px;
+    font-size: 24px;
+}
+
+
+.price-content-head p{
+    margin-top: 25px;
+    padding: 0 25px;
+    font-size: 14px;
+
+}
+
+.price-content-body{
+    background: #1f282c;
+    padding: 45px 0 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.price-content-body p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.price-content-body p span{
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 2px;
+}
+
+.price-content-body a{
+    background: #f4511e;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.price-content:hover{
+    border: 1px solid #f4511e;
+}
+
+.price-content:hover .price-content-body>p>span{
+    color: #f4511e;
+} 
+
+.sinner1{
+    padding: 9% 5%;
+    text-align: center;
+    background: #ebebeb;
+    min-height: 440px;
+}
+
+.sinner1 img{
+    margin: 0 auto;
+}
+
+.sinner1 a img{
+    display: inherit;
+    width: 20%;
+}
+
+.sinner1 h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.sinner2{
+    padding: 15% 15%;
+    text-align: left;
+    background: #ebebeb;
+    min-height: 440px;
+}
+
+.sinner2 img{
+    display: inherit;
+    width: 100%;
+}
+
+.sinner2 h4{
+    font-size: 30px;
+    font-family: "bignoodletitling";
+}
+
+.team{
+    padding-bottom: 90px;
+}
+
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: -34%;
+}
