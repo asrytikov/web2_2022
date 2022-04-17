@@ -12,4 +12,7 @@ $(document).ready(function(){
         itemMargin: 25,
         touch: true
     });
+    $('.accordion').accordion({
+        defaultOpen: '',
+    });
 });

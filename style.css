@@ -372,3 +372,69 @@ h4{
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.map{
+    background-color: #171f23;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 5px 0;
+    display: block;
+}
+
+.map h3{
+    font-size: 30px;
+    font-family: "bignoodletitling";
+}
+
+.map span{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #f15324;
+    font-size: 24px;
+}
+
+.accordion-open span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e873";
+}
+
+.accordion-close span::after{
+    font-family: 'Linearicons-Free';
+    content: "\e874";
+}
+
+footer{
+    background-color: #171f23;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 20px 0;
+    display: block;
+    font-family: "bignoodletitling";
+}
+
+#filters{
+    margin: 1% auto;
+    width: 100%;
+    text-align: center;
+}
+
+#filters li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.filter{
+    display: block;
+    color: #3d3d3d;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.filter.active{
+    font-weight: 700;
+    color: #3d3d3d;
+    border-bottom: 1px solid #e84c3d;
+}
